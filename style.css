@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	color: grey;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-visual{
+	height: 400px;
+	width: 100%;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom center;
+}
+.main-visual-text{
+	padding: 20px 0 0 20px;
+	color: grey;
+}
+
+main{
+	width: 840px;
+	margin: 50px auto;
+}
+.main-list{
+	margin-bottom: 30px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+}
+.main-list-image{
+	background-size: cover;
+}
+.main-list-text{
+	color: grey;
+}
+
+/*clearfixの記述は不要*/
